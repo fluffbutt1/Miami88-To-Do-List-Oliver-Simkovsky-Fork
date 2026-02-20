@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div className="d-flex justify-content-center align-items-center flex-column">
 			<Title title={"hello"}/>
-			<List />
+			<List/>
 		</div>
 	);
 };
