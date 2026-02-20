@@ -1,7 +1,7 @@
 import React from "react";
 
-export const Title = () => {
+export const Title = ({title}) => {
     return(
-        <h1>To Do List!</h1>
+        <h1>To Do List!{title}</h1>
     );
 };
